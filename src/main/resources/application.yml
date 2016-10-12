@@ -1,0 +1,18 @@
+spring:
+  dubbo:
+    application:
+      name: baochunyu-provider
+    registry:
+      address: zookeeper://192.168.235.128:2181
+    protocol:
+      name: dubbo
+      port: 20880
+
+#spring:
+#  dubbo:
+#    app: dubbo-uic-consumer
+#    registry: zookeeper://192.168.235.128:2181
+#    protocol: dubbo
+
+logging:
+  file: e://logs/ms-dubbo.log
